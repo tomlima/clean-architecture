@@ -1,0 +1,17 @@
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\bin\Debug\net9.0\Game.Infrastructure.deps.json
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\bin\Debug\net9.0\Game.Infrastructure.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\bin\Debug\net9.0\Game.Infrastructure.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\bin\Debug\net9.0\Game.Domain.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\bin\Debug\net9.0\Game.Domain.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.AssemblyInfo.cs
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Inf.834E5F4C.Up2Date
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\refint\Game.Infrastructure.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\ref\Game.Infrastructure.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\bin\Debug\net9.0\Game.Infrastructure.runtimeconfig.json
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Infrastructure\obj\Debug\net9.0\Game.Infrastructure.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\bin\Debug\net9.0\Shop.Domain.deps.json
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\bin\Debug\net9.0\Shop.Domain.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\bin\Debug\net9.0\Shop.Domain.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.AssemblyInfoInputs.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.AssemblyInfo.cs
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\refint\Shop.Domain.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\ref\Shop.Domain.dll

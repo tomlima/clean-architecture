@@ -1,0 +1,17 @@
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Application.deps.json
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Application.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Application.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Domain.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Infrastructure.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Domain.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\bin\Release\net9.0\Game.Infrastructure.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.csproj.AssemblyReference.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.AssemblyInfoInputs.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.AssemblyInfo.cs
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.csproj.CoreCompileInputs.cache
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.App.0A0D3DF6.Up2Date
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\refint\Game.Application.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\Game.Application.pdb
+C:\Users\tomli\RiderProjects\WebApplication1\Game.Application\obj\Release\net9.0\ref\Game.Application.dll
