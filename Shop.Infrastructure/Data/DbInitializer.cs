@@ -5,24 +5,23 @@ public class DbInitializer
 {
     public static void Seed(ApplicationDbContext context)
     {
-        // Seed Shops
-        if (!context.Brands.Any())
-        {
-            context.Brands.AddRange(
-                new Brand {Name = "Nike"},
-                new Brand {Name = "Adidas"},
-                new Brand {Name = "Converse"}
-            );
-            context.SaveChanges();
-        }
         if (!context.Products.Any())
         {
             context.Products.AddRange(
-                new Product {Name =  "Dunk SB Rayssa Leal", Price = 450, Brand = new Brand() },
-                new Product {Name =  "Samsung", Price = 800, Brand = new Brand() },
-                new Product {Name =  "Sony", Price = 600, Brand = new Brand() },
-                new Product {Name =  "Xbox", Price = 400, Brand = new Brand()},
-                new Product {Name =  "Xbox One", Price = 300, Brand = new Brand()}
+                new Product
+                {
+                    Name =  "Nike Revolution 7", 
+                    Price = 299,
+                    Category = new Category {Name = "tenis"},
+                    Image = "nike-revolution-7",
+                    Brand = new Brand {Name = "Nike"},
+                    Tags = new List<Tag>
+                    {
+                        new Tag {Name = "Nike"},
+                        new Tag {Name = "Masculino"},
+                        new Tag {Name = "Esportivo"},
+                    }
+                }
             );
             context.SaveChanges();
         }
