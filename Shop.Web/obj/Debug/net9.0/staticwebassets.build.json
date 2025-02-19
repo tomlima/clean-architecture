@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YJcrEflyv7okb7pZkGFZaermDtexOeHRkCkVP0JuTUo=",
+  "Hash": "8uieSvjgAL9Mb33ybSjMTuMrx7dnovHqyDV4hl3hHpI=",
   "Source": "Shop.Web",
   "BasePath": "_content/Shop.Web",
   "Mode": "Default",
@@ -1443,6 +1443,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\images\\nike-revolution-7.png",
+      "SourceId": "Shop.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\",
+      "BasePath": "_content/Shop.Web",
+      "RelativePath": "images/nike-revolution-7#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mjtrvwh5k2",
+      "Integrity": "ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\nike-revolution-7.png"
     },
     {
       "Identity": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\js\\site.js",
@@ -3320,6 +3341,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
+        }
+      ]
+    },
+    {
+      "Route": "images/nike-revolution-7.mjtrvwh5k2.png",
+      "AssetFile": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\images\\nike-revolution-7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mjtrvwh5k2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/nike-revolution-7.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/nike-revolution-7.png",
+      "AssetFile": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\images\\nike-revolution-7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:57:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ="
         }
       ]
     },

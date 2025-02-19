@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\images\\nike-revolution-7.png",
+      "PackagePath": "staticwebassets\\images\\nike-revolution-7.png"
+    },
+    {
       "Id": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

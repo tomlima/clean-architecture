@@ -1,7 +1,7 @@
 namespace Shop.Domain.Entities;
 
-public class Brand
+public class Tag
 {
-    public  int Id { get; set; }
+    public int Id { get; set; }
     public required string Name { get; set; }
 }

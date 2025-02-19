@@ -132,3 +132,4 @@ C:\Users\tomli\RiderProjects\WebApplication1\Shop.Web\obj\Debug\net9.0\refint\Sh
 C:\Users\tomli\RiderProjects\WebApplication1\Shop.Web\obj\Debug\net9.0\Shop.Web.pdb
 C:\Users\tomli\RiderProjects\WebApplication1\Shop.Web\obj\Debug\net9.0\Shop.Web.genruntimeconfig.cache
 C:\Users\tomli\RiderProjects\WebApplication1\Shop.Web\obj\Debug\net9.0\ref\Shop.Web.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Web\obj\Debug\net9.0\Shop.Web.sourcelink.json

@@ -9,3 +9,4 @@ C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.D
 C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\refint\Shop.Domain.dll
 C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.pdb
 C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\ref\Shop.Domain.dll
+C:\Users\tomli\RiderProjects\WebApplication1\Shop.Domain\obj\Debug\net9.0\Shop.Domain.sourcelink.json

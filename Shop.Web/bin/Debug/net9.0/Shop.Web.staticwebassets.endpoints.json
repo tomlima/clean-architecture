@@ -897,6 +897,88 @@
       ]
     },
     {
+      "Route": "images/nike-revolution-7.mjtrvwh5k2.png",
+      "AssetFile": "images/nike-revolution-7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:57:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mjtrvwh5k2"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ="
+        },
+        {
+          "Name": "label",
+          "Value": "images/nike-revolution-7.png"
+        }
+      ]
+    },
+    {
+      "Route": "images/nike-revolution-7.png",
+      "AssetFile": "images/nike-revolution-7.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "175119"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 19 Feb 2025 21:57:39 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ruK5Yb98u0WyPdWooyfkttSTSFDoFQXLmTsDUDdR3ZQ="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "js/site.js.gz",
       "Selectors": [
