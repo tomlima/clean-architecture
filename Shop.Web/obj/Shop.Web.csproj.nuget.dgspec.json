@@ -1,37 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\Shop.Web.csproj": {}
+    "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Web\\Shop.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Application\\Shop.Application.csproj": {
+    "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Application\\Shop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Application\\Shop.Application.csproj",
+        "projectUniqueName": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Application\\Shop.Application.csproj",
         "projectName": "Shop.Application",
-        "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Application\\Shop.Application.csproj",
-        "packagesPath": "C:\\Users\\tomli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Application\\obj\\",
+        "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Application\\Shop.Application.csproj",
+        "packagesPath": "C:\\Users\\TomLima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Application\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\tomli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\TomLima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj"
+              "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj"
               },
-              "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
+              "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
               }
             }
           }
@@ -72,27 +74,29 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\TomLima\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj": {
+    "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj",
         "projectName": "Shop.Domain",
-        "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj",
-        "packagesPath": "C:\\Users\\tomli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\obj\\",
+        "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj",
+        "packagesPath": "C:\\Users\\TomLima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\tomli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\TomLima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,35 +135,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\TomLima\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+    "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
         "projectName": "Shop.Infrastructure",
-        "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\tomli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\TomLima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\tomli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\TomLima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj": {
-                "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Domain\\Shop.Domain.csproj"
+              "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Domain\\Shop.Domain.csproj"
               }
             }
           }
@@ -214,38 +220,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\TomLima\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\Shop.Web.csproj": {
+    "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Web\\Shop.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\Shop.Web.csproj",
+        "projectUniqueName": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Web\\Shop.Web.csproj",
         "projectName": "Shop.Web",
-        "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\Shop.Web.csproj",
-        "packagesPath": "C:\\Users\\tomli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Web\\obj\\",
+        "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Web\\Shop.Web.csproj",
+        "packagesPath": "C:\\Users\\TomLima\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Web\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "configFilePaths": [
-          "C:\\Users\\tomli\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\TomLima\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Application\\Shop.Application.csproj": {
-                "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Application\\Shop.Application.csproj"
+              "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Application\\Shop.Application.csproj": {
+                "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Application\\Shop.Application.csproj"
               },
-              "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\tomli\\RiderProjects\\WebApplication1\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
+              "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\TomLima\\repos\\clean-architecture\\Shop.Infrastructure\\Shop.Infrastructure.csproj"
               }
             }
           }
@@ -289,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\TomLima\\.dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

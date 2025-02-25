@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Mysqlx.Crud;
 using Shop.Domain.Entities;
 
 public class ApplicationDbContext : DbContext
@@ -12,4 +13,8 @@ public class ApplicationDbContext : DbContext
     public DbSet<Product> Products { get; set; }
     
     public DbSet<Brand> Brands { get; set; }
+    
+    public DbSet<Category> Categories { get; set; } 
+    
+    public DbSet<Tag> Tags { get; set; }
 }
