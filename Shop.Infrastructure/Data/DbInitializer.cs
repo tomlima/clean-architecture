@@ -6,9 +6,9 @@ public class DbInitializer
     public static void Seed(ApplicationDbContext context)
     {
         // Initializing category types
-        CategoryTypes CT_modality = new CategoryTypes { Name = "Modality" };
-        CategoryTypes CT_gender = new CategoryTypes { Name = "Gender" };
-        CategoryTypes CT_type = new CategoryTypes { Name = "Type" };
+        CategoryType CT_modality = new CategoryType { Name = "Modality" };
+        CategoryType CT_gender = new CategoryType { Name = "Gender" };
+        CategoryType CT_type = new CategoryType { Name = "Type" };
         
         
         // Initializing brands

@@ -8,7 +8,7 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
     public ApplicationDbContext CreateDbContext(string[] args)
     {
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-        optionsBuilder.UseMySQL("server=localhost; port=3306; database=ecommerce; user=root; password=root; Persist Security Info=False; Connect Timeout=300");
+        optionsBuilder.UseMySQL("server=localhost; port=3306; database=ecommerce; user=root; password=''; Persist Security Info=False; Connect Timeout=300");
 
         return new ApplicationDbContext(optionsBuilder.Options);
     }
