@@ -1,31 +1,364 @@
-html {
-  font-size: 14px;
+/* 
+*  CSS TABLE OF CONTENTS
+*   
+*  1.0 - Globals
+*  2.0 - Layout
+*  3.0 - Utilities
+*  4.0 - Components
+*  5.0 - Fonts
+*  6.0 - Animations
+
+*/
+
+/*---------------
+1.0 - Globals
+---------------*/
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
+
+
+html {
+  scroll-behavior: auto;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+body,
+button,
+input {
+  font-family: 'Poppins', sans-serif;;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+input[type="text"] {
+  height: 60px;
+  border-radius: 0.65rem;
+  background-color: #fff;
+  color: hsl(229deg 11% 51%);
+  padding: 15px 30px;
+  display: block;
+  border: 2px solid rgba(128, 128, 128, 0.404);
+  outline: none;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+}
+::placeholder {
+  color: rgba(128, 128, 128, 0.603);
+}
+
+/*-----------------
+2.0 - Layout 
+-----------------*/
+.l-main {
+  overflow: hidden;
+}
+
+.l-container {
+  max-width: 968px;
+  margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  @media screen and (min-width:1050px) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+  }
+  @media screen and (min-width: 1216px) {
+    max-width: 1080px;
+  }
+  @media screen and (min-width:1400px) {
+      max-width: 1180px;
+  }
+
+}
+
+.l-grid {
+  display: grid;
+}
+
+.l-flex {
+  display: flex;
+}
+
+.l-row{
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.l-col-12{
+  position: relative;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media screen and (min-width:1050px){
+    position: relative;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
+.l-col-6{
   position: relative;
-  min-height: 100%;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media screen and (min-width:1050px){
+    position: relative;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: calc(50% - 100px / 2);
+  }
 }
 
-body {
-  margin-bottom: 60px;
+.l-col-4{
+  position: relative;
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%;
+  @media screen and (min-width:1050px){
+    position: relative;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: calc(33.333333% - 100px / 3);
+  }
 }
 
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
+/*-----------------
+3.0 - Utilities
+-----------------*/
+.u-is-loading {
+  opacity: 0;
 }
 
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
+.u-is-important {
+  color: blue;
+}
+
+.u-justify-content-between {
+  justify-content: space-between;
+}
+
+.u-justify-content-center {
+  justify-content: center;
+}
+
+.u-align-items-center {
+  align-items: center;
+}
+
+.u-relative{
+  position: relative;
+}
+
+.u-section {
+  margin: 2rem 0 0 0;
+  padding: 2rem 0;
+  z-index: 10;
+  position: relative;
+  @media screen and (min-width: 767px) {
+    margin: 6rem 0 0 0;
+  }
+}
+
+.u-section__title{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  word-break: break-word;
+  @media screen and (min-width: 767px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    padding:0 10rem;
+  }
+}
+
+.u-section--darker{
+  background-color: #f5f6fa;
+}
+
+.u-mb-0-5 {
+  margin-bottom: 0.5rem;
+}
+
+.u-mb-1 {
+  margin-bottom: 1rem;
+}
+
+.u-mb-1-5 {
+  margin-bottom: 1.5rem;
+}
+
+.u-mb-2 {
+  margin-bottom: 2rem;
+}
+
+.u-mb-2-5 {
+  margin-bottom: 2.5rem;
+}
+
+
+/*-----------------
+4.0 - Components
+-----------------*/
+.c-button {
+  display: inline-block;
+  color: #fff;
+  padding: 1.15rem 2.75rem;
+  font-weight: 500;
+  border-radius: 0.65rem;
+  transition: 0.3s;
+}
+
+.c-button--primary{
+  background-color: blue;
+}
+
+.c-button--gifts{
+  display: flex;
+  padding: 0.5rem;
+  border-radius: 0.25rem 0.25rem 0.75rem 0.25rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+/*-----------------
+5.0 - Fonts
+-----------------*/
+h1,
+h2,
+h3,
+a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  margin: 0px;
+}
+
+p{
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.8rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 2rem;
+  @media screen and (min-width: 1050px) {
+    font-size: 2.5rem;
+  }
+}
+
+h2 {
+  font-size: 1.5rem;
+  @media screen and (min-width: 1050px) {
+    font-size: 1.5rem;
+  }
+}
+
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  @media screen and (min-width: 1050px) {
+    font-size: 1.25rem;
+  }
+}
+
+p,
+a {
+  font-size: 1.15rem;
+  color: hsl(229deg 11% 51%);
+}
+
+/*-----------------
+6.0 - Animations
+-----------------*/
+@keyframes float {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 15px); }
+  100%   { transform: translate(0, -0px); }
+}
+
+@keyframes animate-shadow {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.2;
+    transform: translateX(80px);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateX(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  60% {
+    -moz-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(10px);
+  }
 }

@@ -17,7 +17,11 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="wwwroot\images\" />
+      <_ContentIncludedByDefault Remove="Views\Components\Header\Index.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Include="wwwroot\css\_Header.css" />
     </ItemGroup>
 
 </Project>
