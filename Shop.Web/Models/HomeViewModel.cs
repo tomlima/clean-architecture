@@ -6,4 +6,6 @@ public class HomeViewModel
 {
     public List<ProductDTO> Products { get; set; }
     public List<CategoryTypeDTO> CategoryTypes { get; set; }
+    
+    public List<CategoryDTO> Categories { get; set; }
 }
