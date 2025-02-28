@@ -1,16 +1,17 @@
-﻿
-
-@{
+﻿@{
     ViewData["Title"] = "Unknown shop";
-    @model IEnumerable<Shop.Application.DTOs.ProductDTO>
+    @model HomeViewModel
 }
-
-<h2>Product List</h2>
 <ul>
-    @foreach (var product in Model)
+    @if (Model.Products.Count() > 0)
     {
-        <li>
-            <strong>@product.Name</strong> - @product.Price.ToString("C")
-        </li>
+        @foreach (var product in Model.Products)
+        {
+            <li>
+                <strong>@product.Name</strong> - @product.Price.ToString("C")
+            </li>
+        }
     }
 </ul>
+
+<h2>Product List</h2>

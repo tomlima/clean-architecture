@@ -9,17 +9,26 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly IProductService _productService;
+    private readonly ICategoryTypeService _categoryTypeService;
 
-    public HomeController(ILogger<HomeController> logger, IProductService productService)
+    public HomeController(ILogger<HomeController> logger, IProductService productService, ICategoryTypeService categoryTypeService)
     {
         _logger = logger;
         _productService = productService;
+        _categoryTypeService = categoryTypeService;
     }
 
     public async Task<IActionResult> Index()
     {
         var products = await _productService.GetProductsASync();
-        return View(products);
+        var categoryTypes = await _categoryTypeService.GetCategoryTypes();
+        
+        HomeViewModel model = new HomeViewModel
+        {
+            Products = products,
+            CategoryTypes = categoryTypes
+        };
+        return View(model);
     }
 
     public IActionResult Privacy()

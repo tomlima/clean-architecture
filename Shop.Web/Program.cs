@@ -17,9 +17,11 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(
 
 // Register Application services
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryTypeService, CategoryTypeService>();
 
 // Register Repositories
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryTypeRepository, CategoryTypeRepository>();
 
 builder.Services.AddSession();
 
