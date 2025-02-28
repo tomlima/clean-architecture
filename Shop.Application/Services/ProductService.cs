@@ -1,6 +1,5 @@
 using Shop.Application.DTOs;
 using Shop.Application.Interfaces;
-using Shop.Domain.Entities;
 using Shop.Infrastructure.Interfaces;
 
 
