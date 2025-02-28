@@ -1,6 +1,8 @@
 using Shop.Application.Interfaces;
 using Shop.Domain.Entities;
 using Shop.Infrastructure.Interfaces;
+using Shop.Application.DTOs;
+using Shop.Domain.Entities;
 
 namespace Shop.Application.Services;
 
@@ -13,8 +15,14 @@ public class CategoryService : ICategoryService
         _categoryRepository = categoryRepository;
     }
 
-    public async Task<List<Category>> GetCategories()
+    public async Task<List<CategoryDTO>> GetCategories()
     {
-        return await _categoryRepository.GetCategories();
+        var categories = await _categoryRepository.GetCategories();
+        return categories.Select(category => new CategoryDTO
+        {   
+            Id = category.Id,
+            Name = category.Name,
+            CategoryType = category.CategoryType
+        }).ToList();
     }
 }

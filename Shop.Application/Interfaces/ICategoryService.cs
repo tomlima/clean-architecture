@@ -1,8 +1,8 @@
-using Shop.Domain.Entities;
+using Shop.Application.DTOs;
 
 namespace Shop.Application.Interfaces;
 
 public interface ICategoryService
 {
-    public Task<List<Category>> GetCategories();
+    public Task<List<CategoryDTO>> GetCategories();
 }
