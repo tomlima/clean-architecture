@@ -28,6 +28,7 @@ public class HomeController : Controller
     public async Task<IActionResult> Index()
     {
         var products = await _productService.GetProductsASync();
+        var featuredProducts = await _productService.GetFeaturedProducts();
         var categoryTypes = await _categoryTypeService.GetCategoryTypes();
         var categories = await _categoryService.GetCategories();
         
@@ -35,14 +36,10 @@ public class HomeController : Controller
         {
             Products = products,
             CategoryTypes = categoryTypes,
-            Categories = categories
-        };
+            Categories = categories,
+            FeaturedProducts = featuredProducts
+        };  
         return View(model);
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
     }
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
