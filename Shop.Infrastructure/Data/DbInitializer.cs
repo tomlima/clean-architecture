@@ -40,6 +40,7 @@ public class DbInitializer
                     Categories = new List<Category> { C_casual, C_unisex, C_sneaker },
                     Image = "nike-revolution-7",
                     Brand = B_nike,
+                    Featured = true
                 },
                 new Product
                 {
@@ -48,6 +49,7 @@ public class DbInitializer
                     Categories = new List<Category> { C_gym, C_male, C_sneaker },
                     Image = "nike-downshifter-13",
                     Brand = B_nike,
+                    Featured = false
                 },
                 new Product
                 {
@@ -55,7 +57,8 @@ public class DbInitializer
                     Price = 50,
                     Categories = new List<Category> { C_running, C_gym, C_male, C_sneaker },
                     Image = "adidas-grand-court-base",
-                    Brand = B_adidas
+                    Brand = B_adidas,
+                    Featured = true
                 },
                 new Product
                 {
@@ -64,6 +67,7 @@ public class DbInitializer
                     Categories = new List<Category> { C_running, C_gym, C_male, C_sneaker },
                     Image = "adidas-grand-court-base",
                     Brand = B_adidas,
+                    Featured = false
                 },
                 new Product
                 {
@@ -71,7 +75,8 @@ public class DbInitializer
                     Price = 40,
                     Categories = new List<Category> { C_running, C_gym, C_female, C_sneaker },
                     Image = "adidas-duramo-rc",
-                    Brand = B_adidas
+                    Brand = B_adidas,
+                    Featured = false 
                 },
                 new Product
                 {
@@ -80,6 +85,7 @@ public class DbInitializer
                     Categories = new List<Category> { C_hiking,C_male,C_boot},
                     Image = "salomon-quest-element-gtx",
                     Brand = B_salomon,
+                    Featured = true 
                 },
                 new Product
                 {
@@ -88,6 +94,7 @@ public class DbInitializer
                     Categories = new List<Category> { C_hiking,C_female, C_boot },
                     Image = "salomon-xultra-360-mid-gtx-",
                     Brand = B_salomon,
+                    Featured = false
                 }
             );
             context.SaveChanges();

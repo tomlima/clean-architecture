@@ -9,4 +9,5 @@ public class Product
     public required string Image { get; set; }
     public required Brand Brand { get; set; }
     public List<Tag> Tags { get; set; }
+    public required bool Featured { get; set; } = false;
 }
