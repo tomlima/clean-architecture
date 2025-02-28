@@ -23,7 +23,7 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 // Register Repositories
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<ICategoryTypeRepository, CategoryTypeRepository>();
-builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 builder.Services.AddSession();
 

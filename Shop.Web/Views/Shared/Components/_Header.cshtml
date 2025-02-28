@@ -19,13 +19,17 @@
                                 @categoryType.Name</a>
                             <div class="c-nav__submenu" id="submenu-@categoryType.Id">
                                 <div class="c-nav__submenu-wrapper l-flex">
-                                    <a href="#">Esportivo</a>
-                                    <a href="#">Casual</a>
-                                    <a>Social</a>
+                                    @if (Model.Categories.Count() > 0)
+                                    {
+                                        var categoriesByType = Model.Categories.Where(c => c.CategoryType.Name == categoryType.Name).ToList();
+                                        @foreach (var category in categoriesByType)
+                                        {
+                                            <a href="#">@category.Name</a>
+                                        }
+                                    }
                                 </div>
                             </div>
                         </li>
-
                     }
                 }
                 <li class="c-nav__item">
