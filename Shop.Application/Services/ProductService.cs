@@ -24,4 +24,16 @@ public class ProductService: IProductService
             Price = p.Price,
         }).ToList();
     }
+
+    public async Task<List<ProductDTO>> GetFeaturedProducts()
+    {
+        var products = await _productRepository.GetProducts();
+        return products.Select(p => new ProductDTO
+        {   
+            Id = p.Id,
+            Name = p.Name,
+            Price = p.Price,
+            Image = p.Image,
+        }).ToList();
+    }
 }

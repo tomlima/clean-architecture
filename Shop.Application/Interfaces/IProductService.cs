@@ -5,4 +5,5 @@ namespace Shop.Application.Interfaces;
 public interface IProductService
 {
     Task<List<ProductDTO>> GetProductsASync();
+    Task<List<ProductDTO>> GetFeaturedProducts();
 }

@@ -17,4 +17,9 @@ public class ProductRepository:IProductRepository
     {
         return _context.Products.ToList();
     }
+
+    public async Task<List<Product>> GetFeaturedProducts()
+    {
+        return _context.Products.Where(p => p.Featured == true).ToList();
+    }
 }
