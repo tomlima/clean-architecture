@@ -1,2 +1,7 @@
 **/obj/
 **/bin/
+
+.vs/*
+
+Shop.Infrastructure/Migrations/*
+!Shop.Infrastructure/Migrations/.gitkeep
